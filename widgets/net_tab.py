@@ -60,9 +60,9 @@ class NetworkTab(VerticalScroll):
 
         if not data.get("scapy_available", True):
             self.query_one("#net_status", Static).update(
-                "[yellow]scapy not available — protocol counts disabled, bandwidth still live[/yellow]"
+                "[#F5C453]scapy not available — protocol counts disabled, bandwidth still live[/#F5C453]"
             )
         elif data.get("error"):
-            self.query_one("#net_status", Static).update(f"[yellow]{data['error']}[/yellow]")
+            self.query_one("#net_status", Static).update(f"[#F5C453]{data['error']}[/#F5C453]")
         else:
             self.query_one("#net_status", Static).update("")

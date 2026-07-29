@@ -36,12 +36,12 @@ class WifiTab(VerticalScroll):
         table = self.query_one("#wifi_table", DataTable)
 
         if data.get("status") == "no_adapter":
-            status_widget.update("[red]No wireless adapter found.[/red]")
+            status_widget.update("[#F26D6D]No wireless adapter found.[/#F26D6D]")
             table.clear()
             return
 
         if data.get("error"):
-            status_widget.update(f"[yellow]{data['error']}[/yellow]")
+            status_widget.update(f"[#F5C453]{data['error']}[/#F5C453]")
             return
 
         aps = data.get("access_points", [])

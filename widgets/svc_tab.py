@@ -34,7 +34,7 @@ class ServicesTab(VerticalScroll):
         status_widget = self.query_one("#svc_status", Static)
 
         if data.get("error"):
-            status_widget.update(f"[yellow]{data['error']}[/yellow]")
+            status_widget.update(f"[#F5C453]{data['error']}[/#F5C453]")
             return
 
         if data.get("status") != "ok":

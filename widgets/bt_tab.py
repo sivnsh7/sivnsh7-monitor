@@ -35,12 +35,12 @@ class BluetoothTab(VerticalScroll):
         table = self.query_one("#bt_table", DataTable)
 
         if data.get("status") == "no_adapter":
-            status_widget.update("[red]No Bluetooth adapter / scan tool found.[/red]")
+            status_widget.update("[#F26D6D]No Bluetooth adapter / scan tool found.[/#F26D6D]")
             table.clear()
             return
 
         if data.get("error"):
-            status_widget.update(f"[yellow]{data['error']}[/yellow]")
+            status_widget.update(f"[#F5C453]{data['error']}[/#F5C453]")
             return
 
         devices = data.get("devices", [])
