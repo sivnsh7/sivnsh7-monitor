@@ -1,4 +1,3 @@
-
 # sivnsh7-monitor
 
 A root-privileged, terminal-based monitoring dashboard for Kali Linux, built with
@@ -44,6 +43,3 @@ sivnsh7-monitor/
 ├── monitors/                # background threads publishing lock-protected snapshots
 └── utils/helpers.py         # root check, interface discovery, formatters
 ```
-
-```
-
