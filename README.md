@@ -15,9 +15,9 @@ sudo pip install -r requirements.txt --break-system-packages
 ## Run
 
 ```bash
-sudo python3 kalwatch.py
+sudo python3 sivnsh7-monitor.py
 # or
-./run_kalwatch.sh
+./run_sivnsh7-monitor.sh
 ```
 
 Press `q` to quit. Requires root for packet capture, WiFi/Bluetooth scanning, and full
@@ -36,7 +36,7 @@ process/connection visibility — the app will refuse to start otherwise.
 
 ```
 kalwatch/
-├── kalwatch.py        # entry point + root check
+├── sivnsh7-monitor.py        # entry point + root check
 ├── app.py             # Textual App, CSS, tab layout
 ├── widgets/            # per-tab UI (dashboard, net, sys, wifi, bt, svc)
 ├── monitors/           # background threads publishing lock-protected snapshots

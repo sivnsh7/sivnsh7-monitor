@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""kalwatch.py
+"""sivnsh7-monitor.py
 
 Entry point for KaliWatch. Verifies root privileges before importing
 any monitor modules (packet capture / scanning require root), then
 launches the Textual application.
 
 Usage:
-    sudo python3 kalwatch.py
+    sudo python3 sivnsh7-monitor.py
 """
 
 from __future__ import annotations
