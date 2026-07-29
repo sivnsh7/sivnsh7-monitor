@@ -1,4 +1,4 @@
-Here's the corrected version — same structure you pasted, but with every reference consistently updated (yours had `kalwatch/` folder name still mixed in, and it was missing the wrapper script + richer feature list from the latest build):
+
 
 ```markdown
 # sivnsh7-monitor
