@@ -1,6 +1,4 @@
 
-
-```markdown
 # sivnsh7-monitor
 
 A root-privileged, terminal-based monitoring dashboard for Kali Linux, built with
