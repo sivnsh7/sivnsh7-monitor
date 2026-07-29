@@ -1,0 +1,8 @@
+# KaliWatch dependencies
+# Install with: sudo pip install -r requirements.txt --break-system-packages
+textual>=0.58.0
+rich>=13.7.0
+psutil>=5.9.0
+scapy>=2.5.0
+# Optional, improves local subnet discovery in the Services tab if present:
+# python-nmap>=0.7.1
